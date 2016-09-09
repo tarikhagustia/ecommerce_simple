@@ -6,13 +6,13 @@
 	<div class="row">
 		<div class="span9">
 			<ul class="thumbnails listing-products">
-				
-				<?php 
+
+				<?php
 				$query = " SELECT produk.*,stok.* from produk,stok
 				where produk.idproduk=stok.idproduk
 				 ";
-				$id = $_GET['idkategori'];
-if(!empty($id)){				
+				@$id = $_GET['idkategori'];
+if(!empty($id)){
 $query = " SELECT produk.*,stok.*
  from produk,stok
   where produk.idkategori='$id'
@@ -23,7 +23,7 @@ $no = 1;
 //proses menampilkan data
 while($rows = mysql_fetch_object($result)) {
 ?>
-				
+
 				<li class="span3">
 					<div class="product-box" >
 						<span class="sale_tag"></span>
@@ -50,7 +50,7 @@ while($rows = mysql_fetch_object($result)) {
 				</li>
 		<?php } ?>
 			<div class='clearfix'></div>
-		
+
 		</div>
 <?php
 include ('inc/sidebar-front.php');

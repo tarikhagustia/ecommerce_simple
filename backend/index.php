@@ -17,19 +17,19 @@ include('../inc/header-back.php');
 					<a href="#" class="brand">
 						<small>
 							<i class="icon-desktop"></i>
-						Candralab  eCommerce Dashboard
+						Universal Ecommerce Dashboard
 						</small>
 					</a><!--/.brand-->
 
 					<ul class="nav ace-nav pull-right">
-						<?php 
+						<?php
 						if (isset($_SESSION[username])){ ?>
 						<li>	<a href="login/logout.php">
 									<i class="icon-off"></i>
 									Logout
 								</a></li>
 <?php } ?>
-							
+
 					</ul><!--/.w8-nav-->
 				</div><!--/.container-fluid-->
 			</div><!--/.navbar-inner-->
@@ -39,7 +39,7 @@ include('../inc/header-back.php');
 			<a id="menu-toggler" href="#">
 				<span></span>
 			</a>
-<!--sidebar-->			
+<!--sidebar-->
 <div id="sidebar">
 <?php
 if(isset($_SESSION['username'])){

@@ -3,7 +3,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Candralab eCommerce v2.0</title>
+		<title>Universal E-commerce</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
@@ -75,7 +75,7 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">
-					<a href="index.php" class="logo pull-left"><img src="assets/themes-front/images/logo.png" class="site_logo" alt=""></a>
+					<!-- <a href="index.php" class="logo pull-left"><img src="assets/themes-front/images/logo.png" class="site_logo img-responsive" alt=""></a> -->
 					<!-- menu kategori -->
 					<nav id="menu" class="pull-right">
 						<ul>
@@ -87,7 +87,7 @@
 				</div>
 			</section>
 			<?php
-			if(empty($_GET[pg])){
+			if(empty($_GET['pg'])){
 			?>
 		<section  class="homepage-slider" id="home-slider">
 				<div class="flexslider">
@@ -116,5 +116,5 @@
 					echo $_SESSION['nama'].", ";
 					}
 					?>
-					</strong>Selamat datang di Candralab eCommerce
+					</strong>Selamat datang di
 			</section>

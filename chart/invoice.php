@@ -1,8 +1,8 @@
 
 <?php
-/* Candralab Ecommerce v2.0
- * http://www.candra.web.id/
- * Candra adi putra <candraadiputra@gmail.com>
+/* Universal Ecommerce
+ * 
+ * 
  * last edit: 15 okt 2013
  */
 cek_status_login($_SESSION['idpelanggan']);

@@ -1,12 +1,12 @@
 
 <?php
-/* Candralab Ecommerce v2.0
- * http://www.candra.web.id/
- * Candra adi putra <candraadiputra@gmail.com>
+/* Universal Ecommerce
+ *
+ * 
  * last edit: 15 okt 2013
  */
  session_start();
- cek_status_login($_SESSION['username']); 
+ cek_status_login($_SESSION['username']);
 require_once ('../../inc/config.php');
 //data dari berita
 if(isset($_POST)){

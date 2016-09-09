@@ -1,7 +1,7 @@
 <?php
-/* Candralab Ecommerce v2.0
- * http://www.candra.web.id/
- * Candra adi putra <candraadiputra@gmail.com>
+/* Universal Ecommerce
+ *
+ *
  * last edit: 15 okt 2013
  */?>
 			<section id="footer-bar">
@@ -9,25 +9,25 @@
 					<div class="span3">
 						<h4>Navigation</h4>
 						<ul class="user-menu">
-							<li><a href="index.php">Homepage</a></li>  
+							<li><a href="index.php">Homepage</a></li>
 							<li><a href="index.php?mod=page&pg=about">About Us</a></li>
 							<li><a href="index.php?mod=page&pg=contact">Contac Us</a></li>
-												
-						</ul>					
+
+						</ul>
 					</div>
 					<div class="span4">
-						
+
 					</div>
 					<div class="span5">
 						<p class="logo"><img src="assets/themes-front/images/logo.png" class="site_logo" alt=""></p>
-						<p>Candralab Ecommerce  yang menjual baju, baju muslim, sepatu dan pernak pernik lainnya untuk wanita trendi dan modern .</p>
+						<p>  yang menjual baju, baju muslim, sepatu dan pernak pernik lainnya untuk wanita trendi dan modern .</p>
 						<br/>
-						
-					</div>					
-				</div>	
+
+					</div>
+				</div>
 			</section>
 			<section id="copyright">
-				<span>Copyright 2013 Candralab Ecommerce</span>
+				<span>Copyright 2013 </span>
 			</section>
 		</div>
 		<script src="assets/themes-front/js/common.js"></script>
